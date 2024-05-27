@@ -1,0 +1,61 @@
+:root {
+	--loon-primary: #1F3370;
+	--loon-secondary: #CFD6EE;
+}
+
+.loon-button {
+	color: var(--loon-primary);
+	background-color: var(--loon-secondary);
+	text-decoration: none;
+	border: 1px solid var(--loon-primary);
+	padding: 8px 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.loon-button:hover {
+	filter: brightness(90%);
+}
+
+.loon-button:active {
+	filter: brightness(80%);
+}
+
+.loon-full-width {
+	width: 100%;
+}
+
+.loon-table {
+	border-collapse: collapse;
+}
+
+.loon-table th {
+	color: var(--loon-primary);
+	font-weight: bold;
+	background-color: var(--loon-secondary);
+}
+
+.loon-table th,
+.loon-table td {
+	border: 1px solid var(--loon-primary);
+	padding: 8px;
+}
+
+.loon-ordered-list {
+	padding-left: 30px;
+}
+
+.loon-ordered-list li::marker {
+	color: var(--loon-primary);
+	font-weight: bold;
+}
+
+.loon-unordered-list {
+	padding-left: 30px;
+}
+
+.loon-unordered-list li::marker {
+	color: var(--loon-primary);
+}
