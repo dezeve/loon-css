@@ -1,6 +1,6 @@
 # About
 
-loon-css is a tiny CSS library for styling HTML. An example web page with the styles that can be included with the library can be accessed by running `kitchen-sink.html` in your browser.
+loon-css is a tiny CSS library for styling HTML elements. By running `kitchen-sink.html` in your browser, you can access a sample web page containing HTML elements built with the library.
 
 ### Getting Started
 
